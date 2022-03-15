@@ -1,4 +1,4 @@
-#Snake Game
+# Snake Game
 The classic Snake Game in Java. Uses processing for the GUI.
 
 * Clone the repo
