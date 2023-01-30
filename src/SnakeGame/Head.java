@@ -32,10 +32,10 @@ public class Head extends Body{
         boardCol = Game.NUM_OF_COLS;
         boardRow = Game.NUM_OF_ROWS;
 
-        if((getCol() >= boardCol)
-                || (getCol() <= 0)
-                || (getRow() >= boardRow)
-                || (getRow() <= 0)) {
+        if((getCol() > boardCol)
+                || (getCol() < 0)
+                || (getRow() > boardRow)
+                || (getRow() < 0)) {
             return true;
         }
         return false;

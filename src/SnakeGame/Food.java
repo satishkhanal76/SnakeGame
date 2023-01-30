@@ -12,8 +12,8 @@ public class Food implements BoardItem{
 
     public void update(Game game) {
         if(consumed) {
-            relocate();
             consumed = false;
+            relocate();
         }
     }
 

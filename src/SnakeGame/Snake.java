@@ -107,6 +107,7 @@ public class Snake {
                 (head.getIndex().getRow() == food.currentIndex().getRow()));
     }
 
+
     /**
      * the tail of the snake
      * @return the tail of the snake

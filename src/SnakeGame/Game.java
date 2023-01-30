@@ -2,8 +2,8 @@ package SnakeGame;
 
 
 public class Game extends GameLoop{
-    public static final int NUM_OF_ROWS = 40;
-    public static final int NUM_OF_COLS = 40;
+    public static final int NUM_OF_ROWS = 30;
+    public static final int NUM_OF_COLS = 30;
 
     private Board board;
     private Snake snake;
@@ -12,7 +12,6 @@ public class Game extends GameLoop{
     private boolean isGameOver;
 
     public Game() {
-        board = new Board(NUM_OF_ROWS, NUM_OF_COLS);
         setupGame();
         setUpdatePerSeconds(10);
     }

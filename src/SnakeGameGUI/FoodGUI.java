@@ -22,4 +22,8 @@ public class FoodGUI {
 
         p.rect(x, y, w, h);
     }
+
+    public void setFood(Food f) {
+        food = f;
+    }
 }//FoodGUI
