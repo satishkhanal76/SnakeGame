@@ -2,8 +2,8 @@ package SnakeGame;
 
 
 public class Game extends GameLoop{
-    public static final int NUM_OF_ROWS = 30;
-    public static final int NUM_OF_COLS = 30;
+    public static final int NUM_OF_ROWS = 40;
+    public static final int NUM_OF_COLS = 40;
 
     private Board board;
     private Snake snake;
@@ -19,8 +19,8 @@ public class Game extends GameLoop{
 
     public void setupGame() {
         isGameOver = false;
-        snake = new Snake(new Index(NUM_OF_ROWS / 2, NUM_OF_COLS / 2));
-        food = new Food(new Index(NUM_OF_ROWS / 2, NUM_OF_COLS / 3));
+        snake = new Snake(new Index(NUM_OF_ROWS / 3, NUM_OF_COLS / 2));
+        food = new Food(new Index(NUM_OF_ROWS / 2, NUM_OF_COLS / 2));
     }
 
     @Override

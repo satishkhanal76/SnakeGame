@@ -6,8 +6,8 @@ import SnakeGame.Game;
 
 public class GameGUI extends PApplet {
     //static variables
-    public static final int NUM_OF_PIX_ROW = 20;
-    public static final int NUM_OF_PIX_COL = 20;
+    public static final int NUM_OF_PIX_ROW = 30;
+    public static final int NUM_OF_PIX_COL = 30;
 
     //Logic variables
     private Game game;
