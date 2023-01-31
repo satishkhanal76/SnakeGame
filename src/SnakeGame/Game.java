@@ -2,7 +2,7 @@ package SnakeGame;
 
 
 public class Game extends GameLoop{
-    public static final int NUM_OF_ROWS = 30;
+    public static final int NUM_OF_ROWS = 20;
     public static final int NUM_OF_COLS = 30;
 
     private Board board;
