@@ -18,7 +18,7 @@ public class Food implements BoardItem{
     }
 
     private void relocate() {
-        location = new Index(random(0, Game.NUM_OF_COLS), random(0, Game.NUM_OF_ROWS));
+        location = new Index(random(0, Game.NUM_OF_ROWS), random(0, Game.NUM_OF_COLS));
     }
 
     private int random(int min, int max) {

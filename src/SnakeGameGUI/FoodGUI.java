@@ -1,7 +1,6 @@
 package SnakeGameGUI;
 
 import SnakeGame.Food;
-import SnakeGame.Game;
 import processing.core.PApplet;
 
 public class FoodGUI {
