@@ -9,3 +9,5 @@ The classic Snake Game in Java using processing library.
 ## Run the project.
 * Clone the repo
 * Run the [GameGUI](/src/SnakeGameGUI/GameGUI.java) class under the [SnakeGameGUI](/src/SnakeGameGUI/) package/directory.
+
+![Snake Game](/Snake%20Game.gif)
